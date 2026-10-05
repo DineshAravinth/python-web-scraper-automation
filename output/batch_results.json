@@ -1,0 +1,61 @@
+{
+    "project": "Python Scraping & Automation",
+    "execution_type": "concurrent_batch",
+    "batch_size": 5,
+    "concurrency_limit": 3,
+    "successful_tasks": 0,
+    "failed_tasks": 5,
+    "total_records": 0,
+    "results": [
+        {
+            "task_id": 1,
+            "url": "https://books.toscrape.com/",
+            "status": "failed",
+            "proxy": "http://127.0.0.1:9999",
+            "records_found": 0,
+            "duration_seconds": 0.27,
+            "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://books.toscrape.com/\nCall log:\n  - navigating to \"https://books.toscrape.com/\", waiting until \"domcontentloaded\"\n",
+            "data": []
+        },
+        {
+            "task_id": 2,
+            "url": "https://books.toscrape.com/",
+            "status": "failed",
+            "proxy": "YOUR_AUTHORIZED_PROXY",
+            "records_found": 0,
+            "duration_seconds": 1.53,
+            "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://books.toscrape.com/\nCall log:\n  - navigating to \"https://books.toscrape.com/\", waiting until \"domcontentloaded\"\n",
+            "data": []
+        },
+        {
+            "task_id": 3,
+            "url": "https://books.toscrape.com/",
+            "status": "failed",
+            "proxy": "http://127.0.0.1:9999",
+            "records_found": 0,
+            "duration_seconds": 0.27,
+            "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://books.toscrape.com/\nCall log:\n  - navigating to \"https://books.toscrape.com/\", waiting until \"domcontentloaded\"\n",
+            "data": []
+        },
+        {
+            "task_id": 4,
+            "url": "https://books.toscrape.com/",
+            "status": "failed",
+            "proxy": "YOUR_AUTHORIZED_PROXY",
+            "records_found": 0,
+            "duration_seconds": 1.44,
+            "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://books.toscrape.com/\nCall log:\n  - navigating to \"https://books.toscrape.com/\", waiting until \"domcontentloaded\"\n",
+            "data": []
+        },
+        {
+            "task_id": 5,
+            "url": "https://books.toscrape.com/",
+            "status": "failed",
+            "proxy": "http://127.0.0.1:9999",
+            "records_found": 0,
+            "duration_seconds": 0.19,
+            "error": "Page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://books.toscrape.com/\nCall log:\n  - navigating to \"https://books.toscrape.com/\", waiting until \"domcontentloaded\"\n",
+            "data": []
+        }
+    ]
+}
