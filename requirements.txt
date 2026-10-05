@@ -1,0 +1,5 @@
+beautifulsoup4
+requests
+playwright
+pytest
+pytest-asyncio
